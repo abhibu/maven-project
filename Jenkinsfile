@@ -3,7 +3,7 @@ pipeline{
 	stages{
 	  stage('Build'){
 		steps {
-			echo 'This pipeline is executing from Jenkins file'
+			echo 'This pipeline is executing from Jenkins file new'
 			sh 'mvn clean package'
 			}
 			post{
